@@ -4,12 +4,15 @@
 <head>
     <title>Portfolio</title>
     <link href="./assets/css/style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
     <div class="header2">
-        <div class="nameportfolio">Joe Bailey</name>
-        </div>
         <div class="linksportfolio">
             <a href="index.html" style="text-decoration: none;">About |</a>
             <a href="portfolio.html" style="text-decoration: none;">Portfolio |</a>
@@ -23,35 +26,34 @@
     </div>
     <br>
     <br>
-    <div class="portfolio"><strong>Portfolio</strong>
-        <br>
-        <hr>
-        <section>
-            <div class="box"><a href="https://baileyrva.github.io/stateofhappiness/"><img
-                        src="./assets/images/Happiness.png" alt="Hangman"></a>
-                <div class="boxlabel">State of Happiness</div>
-        </section>
-        <section>
-            <div class="box"><a href="https://baileyrva.github.io/passwordinator/"><img
-                        src="./assets/images/Password.PNG" alt="RPG Game"></a>
-                <div class="boxlabel">Passwordinator</div>
-        </section>
-        <section>
-            <div class="box2"><img src="./assets/images/Grey.jpg" alt="Trivia Game">
-        </section>
-        <section>
-            <div class="box"><a href="https://baileyrva.github.io/quizzyquiz/index.html"><img
-                        src="./assets/images/Quiz.PNG" alt="Trivia Game"></a>
-                <div class="boxlabel">Coding Quiz</div>
-        </section>
-        <section>
-            <div class="box"><a href="https://baileyrva.github.io/weathershmether/"><img
-                        src="./assets/images/Weather.PNG" alt="Rutgers"></a>
-                <div class="boxlabel">Whether the Weather</div>
-        </section>
+    <div class="container text-center">
+        <div class="row">
+            <div class="titles col-sm-12">
+                <strong>Portfolio</strong>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <a href="https://baileyrva.github.io/stateofhappiness/"><img src="./assets/images/Happiness.png"
+                        alt="State of Happiness"><a>
+            </div>
+            <div class="col-sm-4">
+                <a href="https://baileyrva.github.io/passwordinator/"><img src="./assets/images/Password.PNG"
+                        alt="Password Generator"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <a href="https://baileyrva.github.io/quizzyquiz/index.html"><img src="./assets/images/Quiz.PNG"
+                        alt="Trivia Game"></a>
+            </div>
+            <div class="col-sm-4">
+                <a href="https://baileyrva.github.io/weathershmether/"><img src="./assets/images/Weather.PNG"
+                        alt="Weather"></a>
+            </div>
+        </div>
     </div>
-
-
     <footer>
         <div class="container">
             Copyright 2019
